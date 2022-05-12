@@ -44,7 +44,7 @@ header{
     background-color: #FFC84F;
     color: white;
     font-size: 27px;
-    padding: 24px 15px;
+    padding: 24px 36px;
     border-radius: 40px;
     font-weight: bold;
     border: none;
@@ -54,8 +54,8 @@ header{
 .btn:hover{
     background-color: white;
     color: #EEA00A;
-    font-size: 36px;
-    padding: 24px 15px;
+    font-size: 27px;
+    padding: 24px 36px;
     border-radius: 40px;
     font-weight: bold;
     border: none;
