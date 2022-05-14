@@ -6,6 +6,10 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
+.container{
+    width: 1920px;
+    margin: 0 auto;  
+}
 /* Header+menu */
 header{
     display: flex;
@@ -13,10 +17,7 @@ header{
     height: 165px;
     background-color: #EEA00A;
 }
-.container{
-    width: 1920px;
-    margin: 0 auto;  
-}
+
 .main{
     display: flex;
     justify-content: space-between;
@@ -145,4 +146,56 @@ button:hover{
     width: 581px;
     line-height: 53px;
     color: #1A1C20;    
+}
+.project{
+    background-color:#FFC84F;
+    height: 100vh;
+}
+.project_gen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider{
+    width: 65%;
+}
+.project h2{
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 142px;
+    color: #EEA00A;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+.text{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 71px;
+    color: #1A1C20;
+}
+.slick-dots {
+    bottom: -50px;
+    
+}
+.slick-dots li button{
+    width: 26px;
+    height: 26px;
+    background: #EEA00A;
+    border-radius: 50%;
+    color: #EEA00A;
+    box-shadow: none;
+}
+.slick-dots li button:before{
+    color: #EEA00A;
+    box-shadow: none;
+}
+.slick-dots li.slick-active button:before{
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+    border: 5px solid #EEA00A;
+    border-radius: 50%;
+    color: white;
+    box-shadow: none;
 }
